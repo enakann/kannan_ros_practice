@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.000878] (ros2_pub_py) JobQueued: {'identifier': 'ros2_pub_py', 'dependencies': OrderedDict()}
+[0.001044] (ros2_pub_py) JobStarted: {'identifier': 'ros2_pub_py'}
+[0.096246] (-) TimerEvent: {}
+[0.198964] (-) TimerEvent: {}
+[0.301881] (-) TimerEvent: {}
+[0.403897] (-) TimerEvent: {}
+[0.505985] (-) TimerEvent: {}
+[0.608167] (-) TimerEvent: {}
+[0.710037] (-) TimerEvent: {}
+[0.812054] (-) TimerEvent: {}
+[0.914144] (-) TimerEvent: {}
+[1.016229] (-) TimerEvent: {}
+[1.118311] (-) TimerEvent: {}
+[1.220317] (-) TimerEvent: {}
+[1.322394] (-) TimerEvent: {}
+[1.424416] (-) TimerEvent: {}
+[1.525602] (-) TimerEvent: {}
+[1.627715] (-) TimerEvent: {}
+[1.731686] (-) TimerEvent: {}
+[1.833716] (-) TimerEvent: {}
+[1.935815] (-) TimerEvent: {}
+[2.000785] (ros2_pub_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py', 'build', '--build-base', '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build', 'install', '--prefix', '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py', '--record', '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/install.log', '--single-version-externally-managed', 'bdist_egg', '--dist-dir', '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/dist'], 'cwd': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'navi', 'TEXTDOMAIN': 'im-config', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1471', 'XDG_SESSION_TYPE': 'x11', 'ROS_PACKAGE_PATH': '/home/navi/catkin_ws/src:/opt/ros/melodic/share', 'LD_LIBRARY_PATH': '/opt/ros/crystal/opt/yaml_cpp_vendor/lib:/opt/ros/crystal/opt/rviz_ogre_vendor/lib:/opt/ros/crystal/lib:/home/navi/catkin_ws/devel/lib:/opt/ros/melodic/lib', 'ROS_ETC_DIR': '/opt/ros/melodic/etc/ros', 'SHLVL': '1', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/navi', 'OLDPWD': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'ROS_PYTHON_VERSION': '3', 'MANAGERPID': '1345', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=58ea8a0da48ee1cca66cddbb5d73ccf7', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install:/opt/ros/crystal', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'crystal', 'LOGNAME': 'navi', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '9:44092', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/navi/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig', 'USERNAME': 'navi', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/bin:/opt/ros/crystal/bin:/opt/ros/melodic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '06e06cfa49ca42f29b3cc197e5fda610', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1376,unix/ubuntu:/tmp/.ICE-unix/1376', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7980f96d_c900_41ba_ae4d_a62965dd707a', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_SESSION_DESKTOP': 'ubuntu', 'ROS_ROOT': '/opt/ros/melodic/share/ros', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.59', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/navi/catkin_ws/devel/share/common-lisp', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py:/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_demo_py:/opt/ros/crystal', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'ROS_MASTER_URI': 'http://localhost:11311', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '2', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=58ea8a0da48ee1cca66cddbb5d73ccf7', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'PYTHONPATH': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_demo_py/lib/python3.6/site-packages:/opt/ros/crystal/lib/python3.6/site-packages:/opt/ros/melodic/lib/python2.7/dist-packages', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/navi/catkin_ws/devel:/opt/ros/melodic'}, 'shell': False}
+[2.036903] (-) TimerEvent: {}
+[2.138991] (-) TimerEvent: {}
+[2.240903] (-) TimerEvent: {}
+[2.343027] (-) TimerEvent: {}
+[2.445013] (-) TimerEvent: {}
+[2.547180] (-) TimerEvent: {}
+[2.648650] (-) TimerEvent: {}
+[2.750401] (-) TimerEvent: {}
+[2.852412] (-) TimerEvent: {}
+[2.954382] (-) TimerEvent: {}
+[3.056384] (-) TimerEvent: {}
+[3.158490] (-) TimerEvent: {}
+[3.261619] (-) TimerEvent: {}
+[3.363654] (-) TimerEvent: {}
+[3.418858] (ros2_pub_py) StdoutLine: {'line': b'running egg_info\n'}
+[3.423775] (ros2_pub_py) StdoutLine: {'line': b'writing /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/PKG-INFO\n'}
+[3.426169] (ros2_pub_py) StdoutLine: {'line': b'writing dependency_links to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/dependency_links.txt\n'}
+[3.428241] (ros2_pub_py) StdoutLine: {'line': b'writing entry points to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/entry_points.txt\n'}
+[3.430079] (ros2_pub_py) StdoutLine: {'line': b'writing requirements to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/requires.txt\n'}
+[3.432381] (ros2_pub_py) StdoutLine: {'line': b'writing top-level names to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/top_level.txt\n'}
+[3.464692] (-) TimerEvent: {}
+[3.566713] (-) TimerEvent: {}
+[3.634045] (ros2_pub_py) StdoutLine: {'line': b"reading manifest file '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt'\n"}
+[3.641646] (ros2_pub_py) StdoutLine: {'line': b"writing manifest file '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt'\n"}
+[3.643401] (ros2_pub_py) StdoutLine: {'line': b'running build\n'}
+[3.644295] (ros2_pub_py) StdoutLine: {'line': b'running build_py\n'}
+[3.645978] (ros2_pub_py) StdoutLine: {'line': b'running install\n'}
+[3.648768] (ros2_pub_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.654460] (ros2_pub_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.665590] (ros2_pub_py) StdoutLine: {'line': b"removing '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages/ros2_pub_py-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[3.667756] (-) TimerEvent: {}
+[3.669271] (ros2_pub_py) StdoutLine: {'line': b'Copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages/ros2_pub_py-0.0.0-py3.6.egg-info\n'}
+[3.675171] (ros2_pub_py) StdoutLine: {'line': b'running install_scripts\n'}
+[3.768788] (-) TimerEvent: {}
+[3.793426] (ros2_pub_py) StdoutLine: {'line': b'Installing sos_publisher script to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/ros2_pub_py\n'}
+[3.800965] (ros2_pub_py) StdoutLine: {'line': b"writing list of installed files to '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/install.log'\n"}
+[3.805301] (ros2_pub_py) StdoutLine: {'line': b'running bdist_egg\n'}
+[3.807020] (ros2_pub_py) StdoutLine: {'line': b'installing library code to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg\n'}
+[3.808053] (ros2_pub_py) StdoutLine: {'line': b'running install_lib\n'}
+[3.809354] (ros2_pub_py) StdoutLine: {'line': b'creating /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg\n'}
+[3.810600] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/lib/sos_publisher.py -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg\n'}
+[3.812127] (ros2_pub_py) StdoutLine: {'line': b'byte-compiling /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/sos_publisher.py to sos_publisher.cpython-36.pyc\n'}
+[3.815060] (ros2_pub_py) StdoutLine: {'line': b'creating /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.816455] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/PKG-INFO -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.817947] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.819348] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/dependency_links.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.821858] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/entry_points.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.823334] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/requires.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.824866] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/top_level.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.826293] (ros2_pub_py) StdoutLine: {'line': b'copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/zip-safe -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO\n'}
+[3.828176] (ros2_pub_py) StdoutLine: {'line': b"creating '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/dist/ros2_pub_py-0.0.0-py3.6.egg' and adding '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg' to it\n"}
+[3.837506] (ros2_pub_py) StdoutLine: {'line': b"removing '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg' (and everything under it)\n"}
+[3.869891] (-) TimerEvent: {}
+[3.953326] (ros2_pub_py) CommandEnded: {'returncode': 0}
+[3.971879] (-) TimerEvent: {}
+[4.067235] (ros2_pub_py) JobEnded: {'identifier': 'ros2_pub_py', 'rc': 0}
+[4.074566] (-) TimerEvent: {}
+[4.078765] (-) EventReactorShutdown: {}

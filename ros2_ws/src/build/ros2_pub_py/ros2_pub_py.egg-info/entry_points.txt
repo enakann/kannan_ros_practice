@@ -1,0 +1,5 @@
+[console_scripts]
+driver_control = driver_control:main
+driver_control_sub = driver_control_sub:main
+sos_publisher = sos_publisher:main
+

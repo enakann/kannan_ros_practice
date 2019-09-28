@@ -1,0 +1,125 @@
+[0.797s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.798s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths='.', build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base='log', log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc8a8b39f28>>, merge_install=False, metas='./colcon.meta', packages_above=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc8a8b39f28>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc8a8b40390>)
+[0.936s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.937s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.938s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.939s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws'
+[0.939s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'ignore'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'ignore_ament_install'
+[0.940s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extensions ['colcon_pkg']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'colcon_pkg'
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extensions ['colcon_meta']
+[0.941s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'colcon_meta'
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extensions ['ros']
+[0.942s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'ros'
+[0.981s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extensions ['cmake', 'python']
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'cmake'
+[0.982s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'python'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extensions ['python_setup_py']
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws) by extension 'python_setup_py'
+[0.983s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build) by extension 'ignore'
+[0.984s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build) ignored
+[0.985s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install) by extension 'ignore'
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install) ignored
+[0.986s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/log) by extension 'ignore'
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/log) ignored
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[0.987s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'ignore'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'ignore_ament_install'
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extensions ['colcon_pkg']
+[0.988s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'colcon_pkg'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extensions ['colcon_meta']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'colcon_meta'
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extensions ['ros']
+[0.989s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'ros'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extensions ['cmake', 'python']
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'cmake'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'python'
+[0.990s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extensions ['python_setup_py']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src) by extension 'python_setup_py'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/build) by extension 'ignore'
+[0.991s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/build) ignored
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/install) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/install) ignored
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/log) by extension 'ignore'
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/log) ignored
+[0.993s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extensions ['ignore', 'ignore_ament_install']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extension 'ignore'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extension 'ignore_ament_install'
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extensions ['colcon_pkg']
+[0.994s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extension 'colcon_pkg'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extensions ['colcon_meta']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extension 'colcon_meta'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extensions ['ros']
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py) by extension 'ros'
+[1.004s] DEBUG:colcon.colcon_core.package_identification:Package '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py' with type 'ros.ament_python' and name 'ros2_pub_py'
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'cmake_target' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'cmake_clean_cache' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'cmake_clean_first' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'cmake_force_configure' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'ament_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'catkin_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'ros2_pub_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.027s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_pub_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py', 'merge_install': False, 'path': '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py', 'symlink_install': False, 'test_result_base': None}
+[1.034s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.038s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py' with build type 'ament_python'
+[1.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pub_py', 'ament_prefix_path')
+[1.051s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/hook/ament_prefix_path.ps1'
+[1.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/hook/ament_prefix_path.sh'
+[1.066s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py'
+[1.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.089s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/crystal'
+[1.090s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/navi/catkin_ws/devel'
+[1.090s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/melodic'
+[2.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py': PYTHONPATH=/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py --uninstall
+[2.978s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py' returned '0': PYTHONPATH=/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py --uninstall
+[2.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py': PYTHONPATH=/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py build --build-base /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build install --prefix /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py --record /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/dist
+[3.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/src/ros2_pub_py' returned '0': PYTHONPATH=/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py build --build-base /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build install --prefix /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py --record /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/dist
+[3.747s] Level 1:colcon.colcon_core.environment:checking '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py' for CMake module files
+[3.748s] Level 1:colcon.colcon_core.environment:checking '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py' for CMake config files
+[3.750s] Level 1:colcon.colcon_core.environment:checking '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib'
+[3.751s] Level 1:colcon.colcon_core.environment:checking '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/bin'
+[3.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pub_py', 'path')
+[3.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/hook/path.ps1'
+[3.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/hook/path.sh'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/pkgconfig/ros2_pub_py.pc'
+[3.755s] Level 1:colcon.colcon_core.environment:checking '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages'
+[3.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_pub_py', 'pythonpath')
+[3.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/hook/pythonpath.ps1'
+[3.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/hook/pythonpath.sh'
+[3.760s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_pub_py)
+[3.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/package.ps1'
+[3.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/package.sh'
+[3.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/package.bash'
+[3.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/ros2_pub_py/package.zsh'
+[3.767s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/share/colcon-core/packages/ros2_pub_py)
+[3.768s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.772s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.785s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.785s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.801s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.804s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/local_setup.ps1'
+[3.811s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/setup.ps1'
+[3.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/local_setup.sh'
+[3.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/setup.sh'
+[3.836s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/local_setup.bash'
+[3.839s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/setup.bash'
+[3.851s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/local_setup.zsh'
+[3.852s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/setup.zsh'

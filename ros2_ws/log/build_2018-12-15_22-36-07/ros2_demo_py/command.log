@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2_ws/build/ros2_demo_py': PYTHONPATH=/home/ros2_ws/install/ros2_demo_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ros2_ws/install/ros2_demo_py --no-deps
+Invoked command in '/home/ros2_ws/build/ros2_demo_py' returned '0': PYTHONPATH=/home/ros2_ws/install/ros2_demo_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ros2_ws/install/ros2_demo_py --no-deps

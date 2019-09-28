@@ -1,0 +1,36 @@
+running egg_info
+writing /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/PKG-INFO
+writing dependency_links to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/dependency_links.txt
+writing entry points to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/entry_points.txt
+writing requirements to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/requires.txt
+writing top-level names to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/top_level.txt
+reading manifest file '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt'
+writing manifest file '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+removing '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages/ros2_pub_py-0.0.0-py3.6.egg-info' (and everything under it)
+Copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages/ros2_pub_py-0.0.0-py3.6.egg-info
+running install_scripts
+Installing sos_publisher script to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/ros2_pub_py/lib/ros2_pub_py
+writing list of installed files to '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/install.log'
+running bdist_egg
+installing library code to /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+running install_lib
+creating /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/lib/driver_control.py -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/lib/sos_publisher.py -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+byte-compiling /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/driver_control.py to driver_control.cpython-36.pyc
+byte-compiling /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/sos_publisher.py to sos_publisher.cpython-36.pyc
+creating /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/PKG-INFO -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/dependency_links.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/entry_points.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/requires.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/top_level.txt -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/zip-safe -> /home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+creating '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/dist/ros2_pub_py-0.0.0-py3.6.egg' and adding '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg' to it
+removing '/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg' (and everything under it)

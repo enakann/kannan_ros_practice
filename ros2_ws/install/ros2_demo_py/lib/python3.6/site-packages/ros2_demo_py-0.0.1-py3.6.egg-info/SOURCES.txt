@@ -1,0 +1,10 @@
+demo.py
+setup.cfg
+setup.py
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/PKG-INFO
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/SOURCES.txt
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/dependency_links.txt
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/entry_points.txt
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/requires.txt
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/top_level.txt
+/home/user/ros2_ws/build/ros2_demo_py/ros2_demo_py.egg-info/zip-safe

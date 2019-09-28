@@ -1,0 +1,36 @@
+Invoking command in '/home/user/ros2_ws/src/ros2_pub_py': PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/user/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/user/ros2_ws/build/ros2_pub_py build --build-base /home/user/ros2_ws/build/ros2_pub_py/build install --prefix /home/user/ros2_ws/install/ros2_pub_py --record /home/user/ros2_ws/build/ros2_pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/user/ros2_ws/build/ros2_pub_py/dist
+running egg_info
+writing /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/PKG-INFO
+writing dependency_links to /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/dependency_links.txt
+writing entry points to /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/entry_points.txt
+writing requirements to /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/requires.txt
+writing top-level names to /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/top_level.txt
+reading manifest file '/home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt'
+writing manifest file '/home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_egg_info
+removing '/home/user/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages/ros2_pub_py-0.0.0-py3.6.egg-info' (and everything under it)
+Copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info to /home/user/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages/ros2_pub_py-0.0.0-py3.6.egg-info
+running install_scripts
+Installing sos_publisher script to /home/user/ros2_ws/install/ros2_pub_py/bin
+writing list of installed files to '/home/user/ros2_ws/build/ros2_pub_py/install.log'
+running bdist_egg
+installing library code to /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+running install_lib
+creating /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+copying /home/user/ros2_ws/build/ros2_pub_py/build/lib/sos_publisher.py -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg
+byte-compiling /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/sos_publisher.py to sos_publisher.cpython-36.pyc
+creating /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/PKG-INFO -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/SOURCES.txt -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/dependency_links.txt -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/entry_points.txt -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/requires.txt -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/top_level.txt -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+copying /home/user/ros2_ws/build/ros2_pub_py/ros2_pub_py.egg-info/zip-safe -> /home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg/EGG-INFO
+creating '/home/user/ros2_ws/build/ros2_pub_py/dist/ros2_pub_py-0.0.0-py3.6.egg' and adding '/home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg' to it
+removing '/home/user/ros2_ws/build/ros2_pub_py/build/bdist.linux-x86_64/egg' (and everything under it)
+Invoked command in '/home/user/ros2_ws/src/ros2_pub_py' returned '0': PS1=${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/user/ros2_ws/install/ros2_pub_py/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base /home/user/ros2_ws/build/ros2_pub_py build --build-base /home/user/ros2_ws/build/ros2_pub_py/build install --prefix /home/user/ros2_ws/install/ros2_pub_py --record /home/user/ros2_ws/build/ros2_pub_py/install.log --single-version-externally-managed bdist_egg --dist-dir /home/user/ros2_ws/build/ros2_pub_py/dist
