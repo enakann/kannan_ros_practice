@@ -16,7 +16,7 @@ import rclpy
 
 from std_msgs.msg import String
 
-
+name='name'
 def main(args=None):
     rclpy.init(args=args)
 
@@ -26,7 +26,7 @@ def main(args=None):
     msg = String()
     
     def timer_callback():
-        msg.data = 'ObiWan Kenobi, please help me. You\'re my only hope'
+        msg.data = '{}, please help me. You\'re my only hope'.format(name)
         node.get_logger().info('Publishing sos message: "%s"' % msg.data)
         publisher.publish(msg)
 
@@ -44,4 +44,5 @@ def main(args=None):
 
 
 if __name__ == '__main__':
+    name='name'
     main()
