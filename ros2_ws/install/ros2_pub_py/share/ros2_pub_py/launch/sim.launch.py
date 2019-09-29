@@ -2,7 +2,7 @@ import launch
 import launch.actions
 import launch.substitutions
 import launch_ros.actions
-
+import os
 #name='name'
 #DeclareLaunchArgument(eval_node_name, default_value='lca_evaluation_node.py'),
 #Node(package=PACKAGE_NAME, node_executable=LaunchConfiguration(eval_node_name), output='screen'),
@@ -23,18 +23,17 @@ def get_params_for(file_name, dir_path, env_name):
         Returns:
             The ros2 launch system compatible params array
         """
-        params_file_path = dir_path / file_name
-        os.environ[env_name] = str(dir_path)
-        params = [
-            params_file_path,
-            str(params_file_path),
-            [os.environ.get(env_name), os.sep, file_name],
-        ]
+        params_file_path = os.path.join(dir_path,file_name)
+        os.environ['name'] ='kannan'
+
         return params
 
 eval_node_name='eval_node_name'
 
-params=get_params_for("myparams.yml",".",name)
+#print(os.curdir)
+#params=get_params_for("myparams.yml",".","name")
+#print(params)
+
 
 def generate_launch_description():
     return launch.LaunchDescription([
@@ -51,6 +50,6 @@ def generate_launch_description():
             package='ros2_pub_py', 
             node_executable=[launch.substitutions.LaunchConfiguration(eval_node_name)], 
             output='screen',
-            parameters=params,
-            node_name=[launch.substitutions.LaunchConfiguration('node_prefix'), 'talker']),
+            parameters=['./myparams.yml'],
+            node_name=[launch.substitutions.LaunchConfiguration(eval_node_name)]),
     ])

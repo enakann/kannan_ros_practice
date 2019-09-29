@@ -13,21 +13,27 @@
 # limitations under the License.
 
 import rclpy
-
+import os
 from std_msgs.msg import String
 
-name='name'
+#name=os.environ['name']
+print(os.environ)
+
 def main(args=None):
     rclpy.init(args=args)
 
     node = rclpy.create_node('sos_publisher')
+    #import pdb;pdb.set_trace()
+    print(node._parameters)
     publisher = node.create_publisher(String, 'sos')
 
     msg = String()
     
     def timer_callback():
+        name=node.get_parameter('love')._value
         msg.data = '{}, please help me. You\'re my only hope'.format(name)
         node.get_logger().info('Publishing sos message: "%s"' % msg.data)
+        #node.get_logger().info(str(os.environ))
         publisher.publish(msg)
 
     timer_period = 0.5  # seconds
@@ -44,5 +50,5 @@ def main(args=None):
 
 
 if __name__ == '__main__':
-    name='name'
+    #name='name'
     main()

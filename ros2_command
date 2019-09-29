@@ -1,2 +1,3 @@
 ros2 launch ros2_pub_py sim.launch.py eval_node_name:=driver_control
 colcon build
+/home/navi/Desktop/ros2_demo_1_1547429184/ros2_ws/install/setup.bash
