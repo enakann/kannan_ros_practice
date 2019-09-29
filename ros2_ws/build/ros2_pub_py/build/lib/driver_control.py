@@ -27,8 +27,10 @@ class Driver(metaclass=Singleton):
     def publish(self):
         i=self.a
         msg=String()
+        name1=self.driver_control.get_parameter('kannan')._value
+        name2=self.driver_control.get_parameter('divi')._value
         while self.state:
-            msg.data="hello "+str(self)+"  " + str(i)
+            msg.data='kannan {}  divi but,but divi {} kannan ---> {}'.format(name1,name2,str(i))
             self.publisher.publish(msg)
             #print(msg.data)
             i+=1

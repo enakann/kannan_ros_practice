@@ -1,4 +1,1 @@
-sos_publisher:
-  ros__parameters:
-    kannan: 'love'
-    divi: 'hate'
+./install/ros2_pub_py/share/ros2_pub_py/launch/myparams.yml

@@ -2,3 +2,14 @@ sos_publisher:
   ros__parameters:
     kannan: 'love'
     divi: 'hate'
+
+driver_control:
+  ros__parameters:
+    kannan: 'goooood'
+    divi: 'baaad'
+
+driver_control_sub:
+  ros__parameters:
+    kannan: 'love'
+    divi: 'hate'
+
