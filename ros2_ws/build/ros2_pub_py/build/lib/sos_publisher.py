@@ -30,8 +30,10 @@ def main(args=None):
     msg = String()
     
     def timer_callback():
-        name=node.get_parameter('love')._value
-        msg.data = '{}, please help me. You\'re my only hope'.format(name)
+        name1=node.get_parameter('kannan')._value
+        name2=node.get_parameter('divi')._value
+
+        msg.data = 'kannan {}  divi but,but divi {} kannan'.format(name1,name2)
         node.get_logger().info('Publishing sos message: "%s"' % msg.data)
         #node.get_logger().info(str(os.environ))
         publisher.publish(msg)

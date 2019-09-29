@@ -1,3 +1,4 @@
 sos_publisher:
   ros__parameters:
-    love: 'kannan'
+    kannan: 'love'
+    divi: 'hate'
