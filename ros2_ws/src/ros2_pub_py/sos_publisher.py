@@ -17,7 +17,7 @@ import os
 from std_msgs.msg import String
 
 #name=os.environ['name']
-print(os.environ)
+#print(os.environ)
 
 def main(args=None):
     rclpy.init(args=args)
