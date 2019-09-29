@@ -52,4 +52,20 @@ def generate_launch_description():
             output='screen',
             parameters=['./myparams.yml'],
             node_name=[launch.substitutions.LaunchConfiguration(eval_node_name)]),
+
+        launch_ros.actions.Node(
+            package='ros2_pub_py',
+            node_executable= 'driver_control',
+            output='screen',
+            parameters=['./myparams.yml'],
+            node_name='driver_control'),
+
+        launch_ros.actions.Node(
+            package='ros2_pub_py',
+            node_executable='driver_control_sub',
+            output='screen',
+            parameters=['./myparams.yml'],
+            node_name='driver_control_sub'),
+
+
     ])
